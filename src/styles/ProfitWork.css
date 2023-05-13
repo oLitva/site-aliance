@@ -1,0 +1,235 @@
+.content-profit {
+    max-width: 1303px;
+    padding-left: 32px;
+    padding-top: 42px;
+}
+
+.picture-profit {
+    background-repeat: no-repeat;
+
+    width: 50%;
+    height: 100px;
+    background-image: url(../components/pictures/ImgForProfit.png);
+}
+
+.your-profit {
+    font-size: 60px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.title-result {
+    padding-top: 42px;
+    padding-bottom: 45px;
+    max-width: 1119px;
+    font-size: 60px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: black;
+}
+
+.theses-profit {
+    padding-top: 44px;
+    padding-bottom: 44px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 28px;
+    border-bottom: #E63712 solid 2px;
+}
+
+.info-for-klient {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    max-width: 620px;
+    width: 100%;
+    border-top: #E63712 solid 2px;
+}
+
+.info-for-klient div {
+    border-bottom: #E63712 solid 2px;
+}
+
+.percent-vector {
+    display: flex;
+    gap: 4px;
+}
+
+.indicators {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px 50px;
+    padding-bottom: 45px;
+    border-bottom: #E63712 solid 2px;
+
+}
+
+.indicators-block {
+    max-width: 357px;
+    width: 100%;
+    max-height: 133px;
+}
+
+.indicator-percent {
+    display: flex;
+    gap: 5px;
+}
+
+.indicators-title-percent {
+    font-size: 60px;
+    font-weight: 700;
+    color: #E63712;
+
+    padding-bottom: 10px;
+}
+
+.indicators-subtitle {
+    max-width: 350px;
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+}
+
+.indicators-block:nth-child(1),
+.indicators-block:nth-child(2),
+.indicators-block:nth-child(4),
+.indicators-block:nth-child(5) {
+    border-right: 1px solid #61676C80;
+    padding-right: 50px;
+}
+
+.indicators-block:nth-child(1)::after {
+    position: absolute;
+    content: '';
+    margin-top: 15px;
+    height: 1px;
+    max-width: 1303px;
+    width: 100%;
+    background: #61676C80;
+}
+
+@media screen and (max-width:700px){
+    .your-profit {
+        font-size: 20px;
+    }
+    .indicators-title{
+        display: flex;
+        justify-content: center;
+    }
+    .title-result {
+        font-size: 25px;
+    }
+
+    .indicators-block:nth-child(1)::after {
+        display: none;
+    }
+
+    .info-for-klient {
+        font-size: 18px;
+    }
+
+    .picture-profit {
+        display: none;
+    }
+
+    .indicators-block:nth-child(1),
+    .indicators-block:nth-child(2), 
+    .indicators-block:nth-child(3), 
+    .indicators-block:nth-child(4),
+    .indicators-block:nth-child(5) {
+        border-right: none;
+        border-bottom: 1px solid #61676C80;
+        padding-right: 0px;
+    }
+    .content-profit {
+        padding-left: 10px;
+    }
+    .indicators{
+        justify-content: center;
+    }
+}
+@media screen and (min-width:700px) and (max-width:820px){
+    .your-profit {
+        font-size: 25px;
+    }
+    .indicators-title{
+        display: flex;
+        justify-content: center;
+    }
+    .title-result {
+        font-size: 25px;
+    }
+
+    .indicators-block:nth-child(1)::after {
+        display: none;
+    }
+
+    .info-for-klient {
+        font-size: 18px;
+    }
+    .title-profit{
+        display: flex;
+        justify-content: center;
+    }
+    .theses-profit{
+        display: flex;
+        justify-content: center;
+    }
+    .indicators-block:nth-child(1),
+    .indicators-block:nth-child(2),
+    .indicators-block:nth-child(3),
+    .indicators-block:nth-child(4),
+    .indicators-block:nth-child(5) {
+        border-right: none;
+        border-bottom: 1px solid #61676C80;
+        padding-right: 0px;
+    }
+    .content-profit {
+        padding-left: 10px;
+    }
+    .indicators{
+        justify-content: center;
+    }
+}
+@media screen and (min-width:820px) and (max-width:1310px){
+    .your-profit {
+        font-size: 40px;
+    }
+    .indicators-title{
+        display: flex;
+        justify-content: center;
+    }
+    .title-result {
+        font-size: 40px;
+    }
+
+    .indicators-block:nth-child(1)::after {
+        display: none;
+    }
+
+    .info-for-klient {
+        font-size: 18px;
+    }
+    .title-profit{
+        display: flex;
+        justify-content: center;
+    }
+    .theses-profit{
+        display: flex;
+        justify-content: center;
+    }
+    .indicators-block:nth-child(1),
+    .indicators-block:nth-child(2),
+    .indicators-block:nth-child(3),
+    .indicators-block:nth-child(4),
+    .indicators-block:nth-child(5) {
+        border-right: none;
+        border-bottom: 1px solid #61676C80;
+        padding-right: 0px;
+    }
+    .content-profit {
+
+        padding-left: 10px;
+    }
+}

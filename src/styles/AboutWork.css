@@ -1,0 +1,64 @@
+.bacgroung {
+    height: 500px;
+    background-image: url(../components/pictures/aboutWorkBG.png);
+}
+
+.about-info {
+    padding-left: 32px;
+    padding-top: 26px;
+    max-width: 1303px;
+}
+
+.container-info {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.info {
+    padding-top: 13%;
+    max-width: 548px;
+}
+
+.title-txt {
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.info-txt {
+    border-top: #E63712 solid 2px;
+    border-bottom: #E63712 solid 2px;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.info-txt div{
+    border-bottom: #E63712 solid 2px;
+}
+@media screen and (max-width:700px) {
+    .title{
+        display: flex;
+        justify-content: center;
+    }
+    .title-txt{
+        font-weight: 600;
+        font-size: 25px;
+    }
+    .about-info {
+        padding-left: 10px;
+    }
+    .info-txt{
+        font-size: 19px;
+    }
+    .bacgroung {
+        height: 100%;
+        padding-bottom: 45px;
+        background-size: cover;
+    }
+    .info {
+        padding-right: 20px;
+        width: 100%;
+    }
+}

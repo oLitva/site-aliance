@@ -1,0 +1,72 @@
+.start {
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../components/pictures/konstruktionBackground.png");
+}
+
+.start-inner {
+    padding-top: 100px;
+    border-bottom: 2px solid #E63712;
+    min-height: 775px;
+}
+
+.start-title {
+    font-size: 60px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-top: 255px;
+}
+
+.start-txt {
+    position: relative;
+    max-width: 738px;
+    width: 100%;
+    font-size: 30px;
+}
+
+.start-txt::before {
+    z-index: -1;
+    left: -70%;
+    top: -100px;
+    position: absolute;
+    content: url(../components/pictures/PatternAliance.png);
+}
+
+.start-txt span {
+    border: 1px solid #E63712;
+    border-radius: 20px;
+    padding: 0px 10px;
+}
+
+.start-subltitle {
+    margin-right: 100px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media screen and (max-width:700px) {
+    .start-txt::before {
+        display: none;
+    }
+
+    .start-title {
+        font-size: 20px;
+    }
+
+    .start-txt {
+        max-width: 100%;
+        font-size: 20px;
+    }
+
+    .start-subltitle {
+        margin-right: 0px;
+        padding-top: 10px;
+    }
+    .start-inner {
+        min-height: 100%;
+        padding-bottom: 50px;
+        margin-left: 10px;
+    }
+}

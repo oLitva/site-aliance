@@ -1,0 +1,131 @@
+.content-aplication{
+    max-width: 1303px;
+    margin-left: 32px;
+    background-color: #273964;
+    background-image: url(../components/pictures/PatternAliance.png);
+    background-position: right -250px top 100px;
+    background-repeat: no-repeat;
+}
+.title-aplication-txt{
+    font-size: 60px;
+    font-weight: 400;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 42px;
+    padding-left: 30px;
+    padding-bottom: 40px;
+}
+.aplication-inputs{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+    border-bottom: solid #E63712 2px;
+}
+.container-inputs{
+    display: flex;
+    flex-direction: column;
+    max-width: 620px;
+    width: 100%;
+    padding-bottom: 42px;
+}
+.block-input{
+    border: 0;
+    border-bottom: solid #E63712 2px;
+    margin-bottom: 10px;
+}
+.block-input input{
+    outline: none;
+    background-color: transparent;
+    max-width: 620px;
+    width: 100%;
+    color: #D9D9D94D;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.text-field__input{
+    border: 0;
+}
+.contact-company{
+    padding-top: 43px;
+    padding-left: 32px;
+    padding-bottom: 90px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 500px;
+    border-bottom: solid #E63712 2px;
+}
+.title-kontact{
+    font-size: 30px;
+    font-weight: 400;
+}
+.info-kontact{
+    font-size: 20px;
+    font-weight: 400;
+}
+.info-kontact a:hover{
+    transition: all 0.3s;
+    color: #E63712;
+}
+.foter{
+    padding-left: 32px;
+    padding-top: 35px;
+    padding-bottom: 25px;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 200px;
+}
+.foter a:hover{
+    transition: all 0.3s;
+    color: #E63712;
+}
+.foter-nav{
+    display: flex;
+    flex-direction: column;
+}
+.foter-social{
+    max-height: 35px;
+    display: flex;
+    gap: 0px 45px;
+}
+.foter-links{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.foter-links svg:hover{
+    fill: #E63712;
+}
+@media screen and (max-width:700px){
+    .content-aplication{
+        margin-left: 0;
+    }
+    .title-aplication-txt{
+        font-size: 20px;
+        padding-top: 20px;
+        padding-left: 10px;
+    }
+    .content-aplication{
+        margin-left: 0px;
+    }
+    .block-input{
+        margin-left: 10px;
+    }
+    .button{
+        margin-left: 10px;
+    }
+    .contact-company{
+        padding-top: 23px;
+        padding-left: 10px;
+    }
+}
+
+@media screen and (min-width:700px) and (max-width:1310px){
+    .content-aplication{
+        margin-left: 0;
+    }
+}
