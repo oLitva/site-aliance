@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/site-aliance/static/css/main.d5bf8abe.css",
-    "main.js": "/site-aliance/static/js/main.b8acd5c2.js",
+    "main.css": "/site-aliance/static/css/main.07da0205.css",
+    "main.js": "/site-aliance/static/js/main.57b4b4a5.js",
     "static/js/787.1b7a1fcf.chunk.js": "/site-aliance/static/js/787.1b7a1fcf.chunk.js",
     "static/media/aboutWorkBG.png": "/site-aliance/static/media/aboutWorkBG.a31398ce7f3274c56eee.png",
     "static/media/konstruktionBackground.png": "/site-aliance/static/media/konstruktionBackground.5b234556076bbcfbb92a.png",
@@ -15,12 +15,12 @@
     "index.html": "/site-aliance/index.html",
     "static/media/carbon_logo-youtube.svg": "/site-aliance/static/media/carbon_logo-youtube.a9bc057a7865e1ff54b81312d6a2d7f2.svg",
     "static/media/Vector.svg": "/site-aliance/static/media/Vector.99ce2411b00886aa3a770e0c8b06f5ca.svg",
-    "main.d5bf8abe.css.map": "/site-aliance/static/css/main.d5bf8abe.css.map",
-    "main.b8acd5c2.js.map": "/site-aliance/static/js/main.b8acd5c2.js.map",
+    "main.07da0205.css.map": "/site-aliance/static/css/main.07da0205.css.map",
+    "main.57b4b4a5.js.map": "/site-aliance/static/js/main.57b4b4a5.js.map",
     "787.1b7a1fcf.chunk.js.map": "/site-aliance/static/js/787.1b7a1fcf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d5bf8abe.css",
-    "static/js/main.b8acd5c2.js"
+    "static/css/main.07da0205.css",
+    "static/js/main.57b4b4a5.js"
   ]
 }
