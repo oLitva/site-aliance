@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/siteAliance/static/css/main.ff6f56a7.css",
-    "main.js": "/siteAliance/static/js/main.b139f304.js",
-    "static/js/787.6678d808.chunk.js": "/siteAliance/static/js/787.6678d808.chunk.js",
-    "static/media/aboutWorkBG.png": "/siteAliance/static/media/aboutWorkBG.a31398ce7f3274c56eee.png",
-    "static/media/konstruktionBackground.png": "/siteAliance/static/media/konstruktionBackground.5b234556076bbcfbb92a.png",
-    "static/media/ReadyProject.png": "/siteAliance/static/media/ReadyProject.bdde34a52270001c5457.png",
-    "static/media/pictureWithOrangebox.png": "/siteAliance/static/media/pictureWithOrangebox.560a71c5e45cd4b66a9d.png",
-    "static/media/ImgForProfit.png": "/siteAliance/static/media/ImgForProfit.7ba9a520ade550d2b891.png",
-    "static/media/PatternAliance.png": "/siteAliance/static/media/PatternAliance.5470679f6ffeff0c65b1.png",
-    "static/media/LogoAIP.png": "/siteAliance/static/media/LogoAIP.7dd6915c36ffb986165d.png",
-    "static/media/logo.svg": "/siteAliance/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "static/media/mingcute_vkontakte-fill.svg": "/siteAliance/static/media/mingcute_vkontakte-fill.99dfd7599caad7e74a15d1e3c6d5b7f1.svg",
-    "index.html": "/siteAliance/index.html",
-    "static/media/carbon_logo-youtube.svg": "/siteAliance/static/media/carbon_logo-youtube.a9bc057a7865e1ff54b81312d6a2d7f2.svg",
-    "static/media/Vector.svg": "/siteAliance/static/media/Vector.99ce2411b00886aa3a770e0c8b06f5ca.svg",
-    "main.ff6f56a7.css.map": "/siteAliance/static/css/main.ff6f56a7.css.map",
-    "main.b139f304.js.map": "/siteAliance/static/js/main.b139f304.js.map",
-    "787.6678d808.chunk.js.map": "/siteAliance/static/js/787.6678d808.chunk.js.map"
+    "main.css": "/site-aliance/static/css/main.d5bf8abe.css",
+    "main.js": "/site-aliance/static/js/main.b8acd5c2.js",
+    "static/js/787.1b7a1fcf.chunk.js": "/site-aliance/static/js/787.1b7a1fcf.chunk.js",
+    "static/media/aboutWorkBG.png": "/site-aliance/static/media/aboutWorkBG.a31398ce7f3274c56eee.png",
+    "static/media/konstruktionBackground.png": "/site-aliance/static/media/konstruktionBackground.5b234556076bbcfbb92a.png",
+    "static/media/ReadyProject.png": "/site-aliance/static/media/ReadyProject.bdde34a52270001c5457.png",
+    "static/media/pictureWithOrangebox.png": "/site-aliance/static/media/pictureWithOrangebox.560a71c5e45cd4b66a9d.png",
+    "static/media/ImgForProfit.png": "/site-aliance/static/media/ImgForProfit.7ba9a520ade550d2b891.png",
+    "static/media/PatternAliance.png": "/site-aliance/static/media/PatternAliance.5470679f6ffeff0c65b1.png",
+    "static/media/LogoAIP.png": "/site-aliance/static/media/LogoAIP.7dd6915c36ffb986165d.png",
+    "static/media/logo.svg": "/site-aliance/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/mingcute_vkontakte-fill.svg": "/site-aliance/static/media/mingcute_vkontakte-fill.99dfd7599caad7e74a15d1e3c6d5b7f1.svg",
+    "index.html": "/site-aliance/index.html",
+    "static/media/carbon_logo-youtube.svg": "/site-aliance/static/media/carbon_logo-youtube.a9bc057a7865e1ff54b81312d6a2d7f2.svg",
+    "static/media/Vector.svg": "/site-aliance/static/media/Vector.99ce2411b00886aa3a770e0c8b06f5ca.svg",
+    "main.d5bf8abe.css.map": "/site-aliance/static/css/main.d5bf8abe.css.map",
+    "main.b8acd5c2.js.map": "/site-aliance/static/js/main.b8acd5c2.js.map",
+    "787.1b7a1fcf.chunk.js.map": "/site-aliance/static/js/787.1b7a1fcf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff6f56a7.css",
-    "static/js/main.b139f304.js"
+    "static/css/main.d5bf8abe.css",
+    "static/js/main.b8acd5c2.js"
   ]
 }
