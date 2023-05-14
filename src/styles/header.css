@@ -15,9 +15,8 @@
 }
 .header-nav{
     display: flex;
-    
     flex-wrap: wrap;
-    gap: 41px;
+    gap: 10px 41px;
 }
 .header-nav-link:hover{
     font-size: 20.5px;
@@ -26,4 +25,15 @@
 .header-nav-link{
     font-size: 20px;
     transition: all 0.3s;
+}
+@media screen and (max-width:700px) {
+    .header-inner{
+        flex-direction: column;
+    }
+    .header-nav{
+        flex-direction: column;
+    }
+    .header-nav{
+        margin-bottom: 20px;
+    }
 }

@@ -16,23 +16,33 @@ const ApplicationForm = () => {
             [key]: value
         })
     }
-    const sendForm = () => {
-        fetch("http://localhost:3001/api", {
-            method: "post",
-            headers: {
-                'Accept': 'application/json',
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(form)
-        })
-            .then((response) => {
-                alert("данные отправлены")
-            });
-        console.log(form)
+    // const sendForm = () => {
+    //     fetch("http://localhost:3001/api", {
+    //         method: "post",
+    //         headers: {
+    //             'Accept': 'application/json',
+    //             'Content-Type': 'application/json'
+    //         },
+    //         body: JSON.stringify(form)
+    //     })
+    //         .then((response) => {
+    //             alert("данные отправлены")
+    //         });
+    //     console.log(form)
+    // }
+    const submitHanlder = () => {
+        const config = {
+            SecureToken: '8b66ce37-44ad-489f-9daa-1b8f3665266f',
+            To: "nikita4litvin@gmail.com",
+            From: "nikita.litvin4@yandex.com",
+            Subject: "Запрос на обратный звонок с web-сайта aliance74",
+            Body: `Здравствуйте! Меня зоут ${form.name}. Мой номер телефона ${form.phone}. ${form.message}`
+        }
+        if (window.Email) {
+            window.Email.send(config)
+            .then(() => alert("Письмо отправлено!"));
+        }
     }
-    
-
-
     return (
         <div className="aplication-form">
             <div className="container">
@@ -68,7 +78,7 @@ const ApplicationForm = () => {
                                     value={form.message}
                                     onChange={(e) => handleChange(e.target.value, 'message')} />
                             </div>
-                            <button className='button' onClick={sendForm}>напишите нам</button>
+                            <button className='button' onClick={submitHanlder}>напишите нам</button>
                         </div>
                     </div>
                     <div className="contact-company">
