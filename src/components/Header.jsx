@@ -10,12 +10,12 @@ const Header = () => {
                 <div className="header-inner">
                     <img src={logo} className='logo-nav' />
                     <nav className="header-nav">
-                        <a href="#" className='header-nav-link'>о компании</a>
-                        <a href="#" className='header-nav-link'>услуги</a>
-                        <a href="#" className='header-nav-link'>проекты</a>
-                        <a href="#" className='header-nav-link'>контакты</a>
+                        <a href="#about" className='header-nav-link'>о компании</a>
+                        <a href="#service" className='header-nav-link'>услуги</a>
+                        <a href="#implemented-project" className='header-nav-link'>проекты</a>
+                        <a href="#aplication-form" className='header-nav-link'>контакты</a>
                     </nav>
-                    <button className='header-button button'>свяжитесь с нами</button>
+                    <a href="#aplication-form"><button className='header-button button'>свяжитесь с нами</button></a>
                 </div>
             </div>
         </header>

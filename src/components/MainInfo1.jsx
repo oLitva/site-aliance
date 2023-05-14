@@ -4,7 +4,7 @@ import "../styles/MainInfo1.css"
 
 const MainInfo1 = () => {
     return (
-        <div className="about">
+        <div className="about" id='about'>
             <div className="container">
                 <div className="about-inner">
                     <div className="about-content">

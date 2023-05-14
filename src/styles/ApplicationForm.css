@@ -61,6 +61,8 @@
     font-weight: 400;
 }
 .info-kontact{
+    display: flex;
+    flex-direction: column;
     font-size: 20px;
     font-weight: 400;
 }
@@ -97,8 +99,17 @@
     gap: 5px;
 }
 
-.foter-links svg:hover{
-    fill: #E63712;
+.vkontakte:hover svg,
+.vkontakte:hover path{
+    transition: all 0.3s;
+    fill: #0077ff;
+    stroke: #0077ff;
+}
+.you-tube:hover svg,
+.you-tube:hover path{
+    transition: all 0.3s;
+    fill: #FF0000;
+    stroke: #FF0000;
 }
 @media screen and (max-width:700px){
     .content-aplication{

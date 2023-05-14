@@ -5,7 +5,7 @@ import "../styles/ImplementedProject.css"
 
 const ImplementedProject = () => {
     return (
-        <div className="implemented-project">
+        <div className="implemented-project" id='implemented-project'>
             <div className="container">
                 <div className="list-ready-projects">
                     <div className="about-ready-project">

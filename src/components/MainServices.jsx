@@ -26,7 +26,7 @@ const MainServices = () => {
     ];
 
     return (
-        <div className="service">
+        <div className="service" id='service'>
             <div className="container">
                 <div className="about-service">
                     <div className="title-a-s">
@@ -44,7 +44,7 @@ const MainServices = () => {
                         ))}
                     </div>
                     <div className="service-button">
-                        <button className='header-button button'>свяжитесь с нами</button>
+                        <a href="#aplication-form"><button className='header-button button'>свяжитесь с нами</button></a>
                     </div>
                 </div>
             </div>
