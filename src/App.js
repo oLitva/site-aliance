@@ -21,6 +21,7 @@ function App() {
 
   return (
     <>
+      <Header />
       <MainTitle />
       <MainInfo1 />
       <MainServices />

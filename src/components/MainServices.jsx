@@ -24,7 +24,6 @@ const MainServices = () => {
                 "предоставляем нашим клиентам центр хранения и обработки данных для коллективной работы в BIM-среде"
         }
     ];
-
     return (
         <div className="service" id='service'>
             <div className="container">
@@ -49,8 +48,6 @@ const MainServices = () => {
                 </div>
             </div>
         </div>
-
-
     )
 }
 

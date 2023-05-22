@@ -70,3 +70,12 @@
         margin-left: 10px;
     }
 }
+@media screen and (min-width:700px) and (max-width:1310px){
+    .start-title {
+        font-size: 20px;
+    }
+    .start-txt {
+        max-width: 100%;
+        font-size: 20px;
+    }
+}

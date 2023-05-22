@@ -16,20 +16,7 @@ const ApplicationForm = () => {
             [key]: value
         })
     }
-    // const sendForm = () => {
-    //     fetch("http://localhost:3001/api", {
-    //         method: "post",
-    //         headers: {
-    //             'Accept': 'application/json',
-    //             'Content-Type': 'application/json'
-    //         },
-    //         body: JSON.stringify(form)
-    //     })
-    //         .then((response) => {
-    //             alert("данные отправлены")
-    //         });
-    //     console.log(form)
-    // }
+
     const submitHanlder = () => {
         const config = {
             SecureToken: '8b66ce37-44ad-489f-9daa-1b8f3665266f',
@@ -39,8 +26,13 @@ const ApplicationForm = () => {
             Body: `Здравствуйте! Меня зоут ${form.name}. Мой номер телефона ${form.phone}. ${form.message}`
         }
         if (window.Email) {
-            window.Email.send(config)
+            if (form.name != "" && form.phone != "" && form.message != ""){
+                window.Email.send(config)
                 .then(() => alert("Письмо отправлено!"));
+            }
+            else{
+                alert("Введите все данные!");
+            }
         }
     }
     return (
@@ -54,7 +46,6 @@ const ApplicationForm = () => {
                     <div className="aplication-inputs">
                         <div className="container-inputs">
                             <div className="block-input">
-
                                 <input class="text-field__input"
                                     type="text"
                                     placeholder='ваше имя'
@@ -62,7 +53,6 @@ const ApplicationForm = () => {
                                     onChange={(e) => handleChange(e.target.value, 'name')} />
                             </div>
                             <div className="block-input">
-
                                 <input class="text-field__input"
                                     type="text"
                                     placeholder='телефон'
@@ -71,7 +61,6 @@ const ApplicationForm = () => {
                             </div>
 
                             <div className="block-input">
-
                                 <input class="text-field__input"
                                     type="text"
                                     placeholder='ваше сообщение'
